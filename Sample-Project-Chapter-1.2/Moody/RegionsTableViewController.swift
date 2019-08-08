@@ -39,7 +39,7 @@ class RegionsTableViewController: UITableViewController, SegueHandler {
     fileprivate var dataSource: TableViewDataSource<RegionsTableViewController>!
 
     fileprivate func setupTableView() {
-        tableView.rowHeight = UITableViewAutomaticDimension
+        tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = 44
         let request = Region.sortedFetchRequest
         request.fetchBatchSize = 20

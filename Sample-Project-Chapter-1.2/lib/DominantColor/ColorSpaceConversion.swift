@@ -82,6 +82,7 @@ extension ARGBPixel_t {
             -0.091169,   0.25243,   0.015708,
             0.0009209, -0.0025498, 0.1786,
         ]
+        self.init()
         self.a = UInt8.max
         self.r = UInt8(max(min(xyz.x * matrix[0] + xyz.y * matrix[1] + xyz.z * matrix[2], Float(UInt8.max)), 0))
         self.g = UInt8(max(min(xyz.x * matrix[3] + xyz.y * matrix[4] + xyz.z * matrix[5], Float(UInt8.max)), 0))
