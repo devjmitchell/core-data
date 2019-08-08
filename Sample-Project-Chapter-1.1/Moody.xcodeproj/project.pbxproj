@@ -286,7 +286,7 @@
 				TargetAttributes = {
 					174495471AFB62A0007C9A75 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = 58PSC9526Y;
+						DevelopmentTeam = FT544A278F;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -305,6 +305,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				Base,
 				de,
 				en,
@@ -438,7 +439,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 58PSC9526Y;
+				DEVELOPMENT_TEAM = FT544A278F;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = io.objc.CoreDataMoody;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -452,7 +453,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 58PSC9526Y;
+				DEVELOPMENT_TEAM = FT544A278F;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = io.objc.CoreDataMoody;
 				PROVISIONING_PROFILE_SPECIFIER = "";
